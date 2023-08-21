@@ -4,12 +4,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # Mandatory variables for the bot to start
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID"))
-WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "")
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+API_ID = int(os.environ.get("API_ID", "1747534"))
+API_HASH = os.environ.get("API_HASH", "5a2684512006853f2e48aca9652d83ea")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6492737948:AAGBOytQGoq6xXNyC-CTRHYTFkO70FiThtQ")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001604178274"))
+WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "https://telegra.ph/file/8d1d4b4a1ed2de4830273.jpg")
+OWNER_ID = int(os.environ.get("OWNER_ID", "1867884587"))
 
 DETAIL_TEMPLATE = """
 **Detail Analysis:**
